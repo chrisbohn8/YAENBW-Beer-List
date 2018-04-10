@@ -12,56 +12,153 @@
   <body>
     <img id="beer-list" src="images/beer-list.svg" alt="Beer List">
 <div id="white-container">
-    <form>
-        <ul> Beer Selection
+    <form id="beerSelector">
+        <ul id="beerSelection">
+          <!-- Core Beers-->
+          <div id="coreBeers">
+            <li>
+              <input type="checkbox" id="mmcheckbox">
+              <label id="miro" for="beerList">Miro Miel</label>
+            </li>
+            <li>
+              <input type="checkbox" id="cpcheckbox">
+              <label for="beerList">Cumberland Punch</label>
+            </li>
+            <li>
+              <input type="checkbox" id="yhcheckbox">
+              <label for="beerList">Young Hickory</label>
+            </li>
+            <li>
+              <input type="checkbox" id="sbcheckbox">
+              <label for="beerList">Swing Bridge</label>
+            </li>
+            <li>
+              <input type="checkbox" id="ebcheckbox">
+              <label for="beerList">East Bank</label>
+            </li>
+          </div>
+          <!-- Special Releases -->
+            <div id="specialReleases">
+            <li>
+              <input type="checkbox" id="krcheckbox">
+              <label for="beerList">Krautrock</label>
+            </li>
+            <li>
+              <input type="checkbox" id="fotccheckbox">
+              <label for="beerList">Fire of the Century</label>
+            </li>          
+            <li>
+              <input type="checkbox" id="wchcheckbox">
+              <label for="beerList">Wes Coast Hamatrillo</label>
+            </li>
+            <li>
+              <input type="checkbox" id="hdpcheckbox">
+              <label for="beerList">Hipster Dance Party</label>
+            </li>
+            <li>
+              <input type="checkbox" id="bbwcheckbox">
+              <label for="beerList">Blueberry Wheat</label>
+            </li>
+            <li>
+              <input type="checkbox" id="ccpcheckbox">
+              <label for="beerList">Coconut Crème Pie</label>
+            </li>
+            <li>
+              <input type="checkbox" id="afcheckbox">
+              <label for="beerList">Augustfest</label>
+            </li>
+            <li>
+              <input type="checkbox" id="ipagentcheckbox">
+              <label for="beerList">I'm an IPA Agent</label>
+            </li>
+            <li>
+              <input type="checkbox" id="rdcheckbox">
+              <label for="beerList">Roaming Dog</label>
+            </li>
+            <li>
+              <input type="checkbox" id="tgcheckbox">
+              <label for="beerList">The Grievance</label>
+            </li>
+
+          <!-- Other -->
+            <li>
+              <input type="checkbox" id="hbcheckbox">
+              <label for="beerList">Holla Blanc</label>
+            </li>
+            <li>
+              <input type="checkbox" id="tccheckbox">
+              <label for="beerList">Talbot's Corner</label>
+            </li>
+
+          <!-- Wood Land -->
+            <li>
+              <input type="checkbox" id="whmcheckbox">
+              <label for="beerList">Woodland Hull Melon</label>
+            </li>
+          </div>
+        <!-- Custom Beers -->
+        <div id="customBeers">
+          <div>
+            <li>
+              <input type="checkbox" id="customcheckbox1">
+              <label for="beerList">Custom Beer<br></label>
+              <form>
+                Beer Name:<br>
+                <input type="text" id="ccb1beerName"><br>
+                Beer Tagline:<br>
+                <input type="text" id="ccb1beerTagline"><br>
+                ABV:<br>
+                <input type="text" id="ccb1beerABV"><br>
+                Tier:<br>
+                <input type="text" id="ccb1beerTier">
+              </form> 
+            </li>
+            <li class="evenccb">
+              <input type="checkbox" id="customcheckbox2">
+              <label for="beerList">Custom Beer<br></label>
+              <form>
+                Beer Name:<br>
+                <input type="text" id="ccb2beerName"><br>
+                Beer Tagline:<br>
+                <input type="text" id="ccb2beerTagline"><br>
+                ABV:<br>
+                <input type="text" id="ccb2beerABV"><br>
+                Tier:<br>
+                <input type="text" id="ccb2beerTier">
+              </form> 
+            </li> 
+          </div>
+          <div>
           <li>
-            <input type="checkbox" id="mmcheckbox">
-            <label id="miro" for="beerList">Miro Miel</label>
+            <input type="checkbox" id="customcheckbox3">
+            <label for="beerList">Custom Beer<br></label>
+              <form>
+                Beer Name:<br>
+                <input type="text" id="ccb3beerName"><br>
+                Beer Tagline:<br>
+                <input type="text" id="ccb3beerTagline"><br>
+                ABV:<br>
+                <input type="text" id="ccb3beerABV"><br>
+                Tier:<br>
+                <input type="text" id="ccb3beerTier">
+              </form> 
           </li>
-          <li>
-            <input type="checkbox" id="cpcheckbox">
-            <label for="beerList">Cumberland Punch</label>
+          <li class="evenccb">
+            <input type="checkbox" id="customcheckbox4">
+            <label for="beerList">Custom Beer<br></label>
+              <form>
+                Beer Name:<br>
+                <input type="text" id="ccb4beerName"><br>
+                Beer Tagline:<br>
+                <input type="text" id="ccb4beerTagline"><br>
+                ABV:<br>
+                <input type="text" id="ccb4beerABV"><br>
+                Tier:<br>
+                <input type="text" id="ccb4beerTier">
+              </form> 
           </li>
-          <li>
-            <input type="checkbox" id="yhcheckbox">
-            <label for="beerList">Young Hickory</label>
-          </li>
-          <li>
-            <input type="checkbox" id="rdcheckbox">
-            <label for="beerList">Roaming Dog</label>
-          </li>
-          <li>
-            <input type="checkbox" id="sbcheckbox">
-            <label for="beerList">Swing Bridge</label>
-          </li>
-          <li>
-            <input type="checkbox" id="ebcheckbox">
-            <label for="beerList">East Bank</label>
-          </li>
-          <li>
-            <input type="checkbox" id="hbcheckbox">
-            <label for="beerList">Holla Blanc</label>
-          </li>
-          <li>
-            <input type="checkbox" id="tgcheckbox">
-            <label for="beerList">The Grievance</label>
-          </li>
-          <li>
-            <input type="checkbox" id="tccheckbox">
-            <label for="beerList">Talbot's Corner</label>
-          </li>
-          <li>
-            <input type="checkbox" id="fotccheckbox">
-            <label for="beerList">Fire of the Century</label>
-          </li>
-          <li>
-            <input type="checkbox" id="whmcheckbox">
-            <label for="beerList">Woodland Hull Melon</label>
-        </li>
-        <li>
-            <input type="checkbox" id="hdpcheckbox">
-            <label for="beerList">Hipster Dance Party</label>
-        </li>          
+         </div>
+        </div>               
         </ul>
         <button id="btn" type="button">Submit</button>
       </form>

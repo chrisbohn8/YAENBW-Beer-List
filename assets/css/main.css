@@ -5,7 +5,7 @@ body {
 /* Fonts */
 
 .beer-name {
-    font-family: RobotoSlab;
+    font-family: Roboto;
     font-weight: bold;
     color: #233746;
     letter-spacing: 0.125rem;
@@ -22,7 +22,7 @@ body {
 .beer-tier-text {
     font-family: Roboto;
     color: #d2b887;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .abv-content,
@@ -31,7 +31,7 @@ body {
     font-weight: bold;
     text-align: center;
     color: #233746;
-    font-size: 1.5625rem;
+    font-size: 1.8rem;
 
 }
 
@@ -54,6 +54,7 @@ body {
     font-weight: bold;
     font-size: 1.875rem;
     color: #6e757b;
+    margin-top: .5rem
 }
 
 .tier-name {
@@ -65,7 +66,7 @@ body {
 .tier-content {
     font-family: RobotoSlab;
     font-weight: bold;
-    font-size: 1.5625rem;
+    font-size: 2rem;
     color: #233746;
     text-align: center;
 }
@@ -94,7 +95,7 @@ a:link {
 #white-container {
     background-color: #ffffff;
     margin: -3.75rem auto;
-    width: 92%;
+    width: 97%;
     box-shadow: 0 0.6875rem 32.125rem 0 rgba(151,145,135,0.16);
 }
 
@@ -103,6 +104,12 @@ a:link {
 	flex-flow: row wrap;
 	align-content: space-between;
 }
+
+/*.beer:nth-child(even) {
+	border-left: solid 2px #ede5d7;
+	margin-left: -12px;
+	padding-left: 6px
+}*/
 
 .beer {
 	display: flex;
@@ -123,18 +130,16 @@ a:link {
 }
 
 .beer-logo {
-	height: 5.375rem;
-	width: 5.375rem;
+	height: 6.71875rem;
+	width: 6.71875rem;
 	margin-top:-1rem;
-	padding-bottom: 1rem;
 }
 
 .enbw-logo {	
-	height: 4.4375rem;
-	width: 3.4995rem;
+	height: 5.546875rem;
+	width: 4.374375rem;
 	padding-right: 0.9375rem;
-	padding-left: 0.9375rem;
-	padding-bottom: 1.9375rem;
+	padding-left: 1.25rem;
 }
 
 .logo-and-text {
@@ -152,14 +157,16 @@ a:link {
 	padding-right: 2rem;
 }
 
-#wine-cider-img {
-	width: 40%
+#wine-cider {
+	justify-content: center
 }
 
 #wine-cider-list {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-content: center;
+	justify-content: center;
+	margin-top: 2rem;
 }
 
 .guest-total {
@@ -168,12 +175,18 @@ a:link {
 	padding-right: 2rem;
 	justify-content: right;
 	margin-left: auto;
+	font-size: 1rem;
 }
 
 .beer:last-child {
 	margin-bottom: 1.75rem;
 	margin-left: auto;
 	cursor: auto;
+}
+
+/* adjust wine-cider-list if there are 12 beers */
+.beer:first-child:nth-last-child(13) ~ .beer:last-child {
+	margin-top: -1.3rem;
 }
 
 .tier-pricing {
@@ -185,7 +198,7 @@ a:link {
 
 .tier {
 	display: flex;
-	margin: 0 auto;
+	margin: -.75rem auto;
     width: 50%;
     height: 7.125rem;
     justify-content: space-around;
@@ -266,7 +279,7 @@ a:link {
 @media screen and (max-width: 1920px) {
 
 	html {
-		font-size: 14pt;
+		font-size: 16.5pt;
 	}
 }
 
@@ -321,7 +334,7 @@ a:link {
 		width: 100%;
 	}
 	
-	#wine-cider-img {
+	#wine-cider {
 		padding-left: 0.9375rem;
 	}
 
@@ -345,58 +358,33 @@ a:link {
 	}
 }
 
-@media only screen and (min-width: 1250px) and (min-height: 900px){
-	body {
-		/*position: fixed;*/
-	}
-	#white-container {
-		height: 80%;
-	}
-}
-
 @media (device-width: 100vw) and (device-height: 100vh) {
-	html {
-    	font-size: 16.5pt;
-	}
 	body {
 		position: fixed;
 	}
 	#white-container {
-    background-color: #ffffff;
-    margin: -3.75rem auto;
-    height: 82%;
-    width: 97%;
-    box-shadow: 0 0.6875rem 32.125rem 0 rgba(151,145,135,0.16);
+		height: 82%;
 	}
-	.beer-logo {
-    height: 6.71875rem;
-    width: 6.71875rem;
-    margin-top: -1rem;
-    padding-bottom: 0;
-	}
-	.enbw-logo {
-    height: 5.546875rem;
-    width: 4.374375rem;
-    padding-right: 0.9375rem;
-    padding-left: 1.25rem;
-    padding-bottom: 0;
-	}
-	.beer:nth-child(2n) {
-    border-left: solid 2px #ede5d7;
-    margin-left: -12px;
-    padding-left: 6px;
-	}
-	#wine-cider-img {
-		display: none;
-	}
-
-	#wine-cider-list {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
 }
-	#wine-cider {
-		justify-content: center;
-	}
+
+.thirteenBeers *{
+    
+}
+
+#hidden {
+    display: none
+}
+
+#beerSelection {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5rem;
+}
+
+#customBeers {
+	display: flex;
+}
+
+.evenccb {
+	margin-left: 10px;
 }
