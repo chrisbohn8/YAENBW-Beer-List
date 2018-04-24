@@ -162,7 +162,7 @@ $(function(){
 		    htmlString += '<img class="beer-logo" src="images/Hipster-Dance-Party.svg" alt="ENBW Logo">';
 		    htmlString += '<div class="beer-text">';
 		    htmlString += '<div class="beer-name">Hipster Dance Party</div>';
-		    htmlString += '<div class="beer-tagline">Double IPA</div>';
+		    htmlString += '<div class="beer-tagline">Double IPA $3 Taster | $5 Half-Pint</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '<div class="abv-and-tier">';
@@ -382,7 +382,7 @@ $(function(){
 		    htmlString += '<img class="beer-logo" src="images/Wes-Coast.svg" alt="ENBW Logo">';
 		    htmlString += '<div class="beer-text">';
 		    htmlString += '<div class="beer-name">Wes Coast Hamatrillo</div>';
-		    htmlString += '<div class="beer-tagline">Amarillo IPA</div>';
+		    htmlString += '<div class="beer-tagline">IPA, Amarillo and Citra Hops</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '<div class="abv-and-tier">';
@@ -537,5 +537,7 @@ $(function(){
 		div.insertAdjacentHTML('afterbegin', htmlString);
 
 		document.getElementById('beerSelector').style.display = "none";
+		document.getElementById('btn').style.display = "none";
+		document.getElementsByTagName('BODY').position = "fixed";
     });
 });

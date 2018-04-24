@@ -16,29 +16,59 @@
         <ul id="beerSelection">
           <!-- Core Beers-->
           <div id="coreBeers">
+            <h1>Core Beers</h1>
             <li>
-              <input type="checkbox" id="mmcheckbox">
+              <input type="checkbox" checked="checked" id="mmcheckbox">
               <label id="miro" for="beerList">Miro Miel</label>
             </li>
             <li>
-              <input type="checkbox" id="cpcheckbox">
+              <input type="checkbox" checked="checked" id="cpcheckbox">
               <label for="beerList">Cumberland Punch</label>
             </li>
             <li>
-              <input type="checkbox" id="yhcheckbox">
+              <input type="checkbox" checked="checked" id="yhcheckbox">
               <label for="beerList">Young Hickory</label>
             </li>
             <li>
-              <input type="checkbox" id="sbcheckbox">
+              <input type="checkbox" checked="checked" id="sbcheckbox">
               <label for="beerList">Swing Bridge</label>
             </li>
             <li>
-              <input type="checkbox" id="ebcheckbox">
+              <input type="checkbox" checked="checked" id="ebcheckbox">
               <label for="beerList">East Bank</label>
             </li>
+
+        <!-- Custom Beers -->
+        <div id=WoodlandStreetColumn>
+          <h1>Woodland Street</h1>
+          <div class="woodlandStreet">
+            <li>
+              <input type="checkbox" id="">
+              <form><br>
+                Hops:
+                <input type="text" id="ccb1beerTagline"><br>
+              </form> 
+            </li>
+            <li class="evenccb">
+              <input type="checkbox" id="">
+              <form>
+                Beer Name:<br>
+                <input type="text" id="ccb2beerName"><br>
+                Beer Tagline:<br>
+                <input type="text" id="ccb2beerTagline"><br>
+                ABV:<br>
+                <input type="text" id="ccb2beerABV"><br>
+                Tier:<br>
+                <input type="text" id="ccb2beerTier">
+              </form> 
+            </li> 
+          </div>
+        </div> 
+
           </div>
           <!-- Special Releases -->
             <div id="specialReleases">
+              <h1>Special Releases</h1>
             <li>
               <input type="checkbox" id="krcheckbox">
               <label for="beerList">Krautrock</label>
@@ -72,7 +102,7 @@
               <label for="beerList">I'm an IPA Agent</label>
             </li>
             <li>
-              <input type="checkbox" id="rdcheckbox">
+              <input type="checkbox" checked="checked" id="rdcheckbox">
               <label for="beerList">Roaming Dog</label>
             </li>
             <li>
@@ -95,10 +125,13 @@
               <input type="checkbox" id="whmcheckbox">
               <label for="beerList">Woodland Hull Melon</label>
             </li>
+                    <button id="btn" type="button">Submit</button>
+
           </div>
         <!-- Custom Beers -->
-        <div id="customBeers">
-          <div>
+        <div id=customBeerColumn>
+          <h1>Additional Beers</h1>
+          <div class="customBeers">
             <li>
               <input type="checkbox" id="customcheckbox1">
               <label for="beerList">Custom Beer<br></label>
@@ -128,7 +161,7 @@
               </form> 
             </li> 
           </div>
-          <div>
+          <div class="customBeers">
           <li>
             <input type="checkbox" id="customcheckbox3">
             <label for="beerList">Custom Beer<br></label>
@@ -160,7 +193,6 @@
          </div>
         </div>               
         </ul>
-        <button id="btn" type="button">Submit</button>
       </form>
 </div>
 

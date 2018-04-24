@@ -2,6 +2,10 @@ body {
     background-color: #f4efe6;
     height: 100%;
 }
+
+ul {
+	list-style-type: none;
+}
 /* Fonts */
 
 .beer-name {
@@ -309,9 +313,9 @@ a:link {
 
 @media only screen and (max-width: 999px) {
 
-	body {
+/*	body {
 		position: static;
-	}
+	}*/
 
     #beers {
     	flex-direction: column;
@@ -359,11 +363,12 @@ a:link {
 }
 
 @media (device-width: 100vw) and (device-height: 100vh) {
-	body {
+/*	body {
 		position: fixed;
-	}
+	}*/
 	#white-container {
 		height: 82%;
+		width: 97%;
 	}
 }
 
@@ -378,13 +383,40 @@ a:link {
 #beerSelection {
 	display: flex;
 	justify-content: space-around;
-	margin-top: 5rem;
+	margin-top: 3rem;
 }
 
-#customBeers {
+.customBeers,
+.woodlandStreet {
 	display: flex;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 .evenccb {
-	margin-left: 10px;
+	margin-left: 3px;
+}
+
+#btn {
+    background-color: #988561;
+    color: #ffffff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 60px;
+    border-radius: 8px;
+}
+#btn:hover {
+    background-color: #233746;
+    color: white;
+}
+
+#WoodlandStreetColumn {
+	display: none;
 }
