@@ -22,9 +22,9 @@ $(function(){
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
-		
+
 		// Add Cumberland Punch if checked
-		} if(document.getElementById('cpcheckbox').checked) {		
+		} if(document.getElementById('cpcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/Cumberland-Punch.svg" alt="Cumberland Punch">';
@@ -44,9 +44,9 @@ $(function(){
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
-		
+
 		// Add Young Hickory if checked
-		} if(document.getElementById('yhcheckbox').checked) {		
+		} if(document.getElementById('yhcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/Young-Hickory.svg" alt="Young Hickory">';
@@ -66,9 +66,9 @@ $(function(){
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
-		
+
 		// Add Roaming Dog if checked
-		} if(document.getElementById('rdcheckbox').checked) {		
+		} if(document.getElementById('rdcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/Roaming-Dog.svg" alt="Roaming-Dog">';
@@ -90,7 +90,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add Swing Bridge if checked
-		} if(document.getElementById('sbcheckbox').checked) {		
+		} if(document.getElementById('sbcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/Swing-Bridge.svg" alt="Swing Bridge">';
@@ -112,7 +112,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add East Bank if checked
-		} if(document.getElementById('ebcheckbox').checked) {		
+		} if(document.getElementById('ebcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/East-Bank.svg" alt="East Bank">';
@@ -134,7 +134,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add Holla Blanc if checked
-		} if(document.getElementById('hbcheckbox').checked) {		
+		} if(document.getElementById('hbcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="enbw-logo" src="images/ENBW-logo.svg" alt="ENBW Logo">';
@@ -156,7 +156,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add Hipster Dance Party if checked
-		} if(document.getElementById('hdpcheckbox').checked) {		
+		} if(document.getElementById('hdpcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/Hipster-Dance-Party.svg" alt="ENBW Logo">';
@@ -178,7 +178,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add The Grievance if checked
-		} if(document.getElementById('tgcheckbox').checked) {		
+		} if(document.getElementById('tgcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/The-Grievance.svg" alt="The Grievance">';
@@ -200,7 +200,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add Talbot's Corner if checked
-		} if(document.getElementById('tccheckbox').checked) {		
+		} if(document.getElementById('tccheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="enbw-logo" src="images/ENBW-logo.svg" alt="ENBW Logo">';
@@ -222,7 +222,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add Fire of the Century if checked
-		} if(document.getElementById('fotccheckbox').checked) {		
+		} if(document.getElementById('fotccheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="enbw-logo" src="images/ENBW-logo.svg" alt="ENBW Logo">';
@@ -244,29 +244,29 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add Woodland Hull Melon if checked
-		} if(document.getElementById('whmcheckbox').checked) {		
+		} if(document.getElementById('totcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
-		    htmlString += '<img class="beer-logo" src="images/Woodland-St.svg" alt="ENBW Logo">';
+		    htmlString += '<img class="enbw-logo" src="images/ENBW-logo.svg" alt="ENBW Logo">';
 		    htmlString += '<div class="beer-text">';
-		    htmlString += '<div class="beer-name">Woodland Hull Melon</div>';
-		    htmlString += '<div class="beer-tagline">Session IPA w/ Hull Melon Hops</div>';
+		    htmlString += '<div class="beer-name">Trouble on Trinity</div>';
+		    htmlString += '<div class="beer-tagline">American Wheat Collaboration with Meddlesome</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '<div class="abv-and-tier">';
 		    htmlString += '<div class="beer-abv">';
 		    htmlString += '<div class="abv-text">ABV</div>';
-		    htmlString += '<div class="abv-content">4.5%</div>';
+		    htmlString += '<div class="abv-content">5.6%</div>';
 		    htmlString += '</div>';
 		    htmlString += '<div class="beer-tier">';
 		    htmlString += '<div class="beer-tier-text">TIER</div>';
-		    htmlString += '<div class="beer-tier-content">1</div>';
+		    htmlString += '<div class="beer-tier-content">2</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 
 		// Add Krautrock if checked
-		} if(document.getElementById('krcheckbox').checked) {		
+		} if(document.getElementById('krcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/Kraut-Rock.svg" alt="ENBW Logo">';
@@ -288,7 +288,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add Blueberry Wheat if checked
-		} if(document.getElementById('bbwcheckbox').checked) {		
+		} if(document.getElementById('bbwcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="enbw-logo" src="images/ENBW-logo.svg" alt="ENBW Logo">';
@@ -310,7 +310,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add Coconut Creme if checked
-		} if(document.getElementById('ccpcheckbox').checked) {		
+		} if(document.getElementById('ccpcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/Coconut-Creme.svg" alt="ENBW Logo">';
@@ -332,7 +332,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add Augustfest if checked
-		} if(document.getElementById('afcheckbox').checked) {		
+		} if(document.getElementById('afcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/August-Fest.svg" alt="ENBW Logo">';
@@ -354,7 +354,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add I'm an IPA Agent if checked
-		} if(document.getElementById('ipagentcheckbox').checked) {		
+		} if(document.getElementById('ipagentcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="enbw-logo" src="images/ENBW-logo.svg" alt="ENBW Logo">';
@@ -376,7 +376,7 @@ $(function(){
 		    htmlString += '</div>';
 
 		// Add Wes Coast Hamatrillo if checked
-		} if(document.getElementById('wchcheckbox').checked) {		
+		} if(document.getElementById('wchcheckbox').checked) {
 			htmlString += '<div class="beer">';
 		    htmlString += '<div class= logo-and-text>';
 		    htmlString += '<img class="beer-logo" src="images/Wes-Coast.svg" alt="ENBW Logo">';
@@ -396,7 +396,7 @@ $(function(){
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
-		
+
 		// Add Custom Checkbox 1
 		} if(document.getElementById('customcheckbox1').checked) {
 			htmlString += '<div class="beer">';
@@ -426,7 +426,7 @@ $(function(){
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
-		
+
 		// Add Custom Checkbox 2
 		} if(document.getElementById('customcheckbox2').checked) {
 			htmlString += '<div class="beer">';
@@ -456,7 +456,7 @@ $(function(){
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
-		
+
 		// Add Custom Checkbox 3
 		} if(document.getElementById('customcheckbox3').checked) {
 			htmlString += '<div class="beer">';
@@ -486,7 +486,7 @@ $(function(){
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
-		
+
 		// Add Custom Checkbox 4
 		} if(document.getElementById('customcheckbox4').checked) {
 			htmlString += '<div class="beer">';
@@ -516,7 +516,65 @@ $(function(){
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
+
+		// Add Woodland Street 1
+		} if(document.getElementById('wscb1').checked) {
+			htmlString += '<div class="beer">';
+		    htmlString += '<div class= logo-and-text>';
+		    htmlString += '<img class="beer-logo" src="images/Woodland-St.svg" alt="ENBW Logo">';
+		    htmlString += '<div class="beer-text">';
+		    htmlString += '<div class="beer-name">Woodland ';
+		    htmlString += document.getElementById('ws1hops').value;
+		    htmlString += '</div>';
+		    htmlString += '<div class="beer-tagline">Session IPA w/ ';
+		    htmlString += document.getElementById('ws1hops').value;
+		    htmlString += ' Hops</div>';
+		    htmlString += '</div>';
+		    htmlString += '</div>';
+		    htmlString += '<div class="abv-and-tier">';
+		    htmlString += '<div class="beer-abv">';
+		    htmlString += '<div class="abv-text">ABV</div>';
+		    htmlString += '<div class="abv-content">4.5%';
+		    htmlString += '</div>';
+		    htmlString += '</div>';
+		    htmlString += '<div class="beer-tier">';
+		    htmlString += '<div class="beer-tier-text">TIER</div>';
+		    htmlString += '<div class="beer-tier-content">1';
+		    htmlString += '</div>';
+		    htmlString += '</div>';
+		    htmlString += '</div>';
+		    htmlString += '</div>';
+
+		// Add Woodland Street 1
+		} if(document.getElementById('wscb2').checked) {
+			htmlString += '<div class="beer">';
+		    htmlString += '<div class= logo-and-text>';
+		    htmlString += '<img class="beer-logo" src="images/Woodland-St.svg" alt="ENBW Logo">';
+		    htmlString += '<div class="beer-text">';
+		    htmlString += '<div class="beer-name">Woodland ';
+		    htmlString += document.getElementById('ws2hops').value;
+		    htmlString += '</div>';
+		    htmlString += '<div class="beer-tagline">Session IPA w/ ';
+		    htmlString += document.getElementById('ws2hops').value;
+		    htmlString += ' Hops</div>';
+		    htmlString += '</div>';
+		    htmlString += '</div>';
+		    htmlString += '<div class="abv-and-tier">';
+		    htmlString += '<div class="beer-abv">';
+		    htmlString += '<div class="abv-text">ABV</div>';
+		    htmlString += '<div class="abv-content">4.5%';
+		    htmlString += '</div>';
+		    htmlString += '</div>';
+		    htmlString += '<div class="beer-tier">';
+		    htmlString += '<div class="beer-tier-text">TIER</div>';
+		    htmlString += '<div class="beer-tier-content">1';
+		    htmlString += '</div>';
+		    htmlString += '</div>';
+		    htmlString += '</div>';
+		    htmlString += '</div>';
 		}
+
+
 
 		// Always Add Wine & Cider List
 		htmlString += '<div id="wine-cider" class="beer">';

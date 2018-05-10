@@ -22,7 +22,7 @@ ul {
     font-size: 1.5625rem;
 }
 
-.abv-text, 
+.abv-text,
 .beer-tier-text {
     font-family: Roboto;
     color: #d2b887;
@@ -139,7 +139,7 @@ a:link {
 	margin-top:-1rem;
 }
 
-.enbw-logo {	
+.enbw-logo {
 	height: 5.546875rem;
 	width: 4.374375rem;
 	padding-right: 0.9375rem;
@@ -337,7 +337,7 @@ a:link {
 	.tier {
 		width: 100%;
 	}
-	
+
 	#wine-cider {
 		padding-left: 0.9375rem;
 	}
@@ -373,7 +373,7 @@ a:link {
 }
 
 .thirteenBeers *{
-    
+
 }
 
 #hidden {
@@ -391,8 +391,8 @@ a:link {
 	display: flex;
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
 .evenccb {
@@ -417,6 +417,4 @@ a:link {
     color: white;
 }
 
-#WoodlandStreetColumn {
-	display: none;
-}
+
