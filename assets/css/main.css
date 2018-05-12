@@ -416,5 +416,12 @@ a:link {
     background-color: #233746;
     color: white;
 }
+label {
+    font-size: 30px;
+}
 
+input[type=checkbox]
+{
+ -webkit-transform: scale(2);
+}
 

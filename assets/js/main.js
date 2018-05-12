@@ -272,7 +272,7 @@ $(function(){
 		    htmlString += '<img class="beer-logo" src="images/Kraut-Rock.svg" alt="ENBW Logo">';
 		    htmlString += '<div class="beer-text">';
 		    htmlString += '<div class="beer-name">Krautrock</div>';
-		    htmlString += '<div class="beer-tagline">Pale Ale</div>';
+		    htmlString += '<div class="beer-tagline">German Malts/Hops APA</div>';
 		    htmlString += '</div>';
 		    htmlString += '</div>';
 		    htmlString += '<div class="abv-and-tier">';
